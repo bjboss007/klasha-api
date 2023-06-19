@@ -39,7 +39,7 @@ Retrieves country data based on the provided country name.
 
 ### Get States Data
 
-Retrieves states and their corresponding cities data for a specific country.
+Retrieve states and their corresponding cities' data for a specific country.
 
 - **URL:** `/api/v1/klasha/countries/states`
 - **HTTP Method:** GET
@@ -137,7 +137,7 @@ The request requires a query parameter with the following properties:
 
 ### Get Cities
 
-Retrieves Cities with highest population from three different countries `["Ghana", "Italy", "New Zealand"]`.
+Retrieves Cities with the highest population from three different countries `["Ghana", "Italy", "New Zealand"]`.
 
 - **URL:** `/api/v1/klasha/countries/cities`
 - **HTTP Method:** GET
