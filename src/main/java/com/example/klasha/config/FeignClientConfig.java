@@ -14,10 +14,10 @@ import org.springframework.context.annotation.Bean;
 public class FeignClientConfig {
     private final ObjectMapper objectMapper;
 
-//    @Bean
-//    public ErrorDecoder errorDecoder() {
-//        return new FeignErrorDecoder(objectMapper);
-//    }
+    @Bean
+    public ErrorDecoder errorDecoder() {
+        return new FeignErrorDecoder(objectMapper);
+    }
 
     @Bean
     Logger.Level feignLoggerLevel() {
